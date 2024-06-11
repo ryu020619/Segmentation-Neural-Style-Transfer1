@@ -81,7 +81,10 @@ style gan으로 모델을 짠 git hub 파일들을 찾아보다가,
 
 content로 사용할 연속적인 학교 이미지 중 가장 첫 번째 사진
 
-![학교 첫 번째 이미지](https://github.com/ryu020619/Segmentation-Neural-Style-Transfer1/blob/main/frame_0000.jpg)
+![spring](https://github.com/ryu020619/Segmentation-Neural-Style-Transfer1/blob/main/summer.png)
+![spring](https://github.com/ryu020619/Segmentation-Neural-Style-Transfer1/blob/main/summer.png)
+![spring](https://github.com/ryu020619/Segmentation-Neural-Style-Transfer1/blob/main/summer.png)
+![spring](https://github.com/ryu020619/Segmentation-Neural-Style-Transfer1/blob/main/summer.png)
 
 - - -
 ### 추후 개선 사항
