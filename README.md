@@ -90,18 +90,43 @@ style gan으로 모델을 짠 git hub 파일들을 찾아보다가,
 ![spring](https://github.com/ryu020619/Segmentation-Neural-Style-Transfer1/blob/main/autumn.png)
 ![spring](https://github.com/ryu020619/Segmentation-Neural-Style-Transfer1/blob/main/winter.png)
 
-+ spring 60장 + summer 60장 + autumn 60장 + winter 60장 합친 gif
++ spring 60장 + summer 60장 + autumn 60장 + winter 60장 합친 gif 
 
-![gif](https://github.com/ryu020619/Segmentation-Neural-Style-Transfer1/assets/144203528/9db85a86-51c4-4c5a-9df4-6efbb4ee6174
-)
+### **![gif](https://github.com/ryu020619/Segmentation-Neural-Style-Transfer1/assets/144203528/9db85a86-51c4-4c5a-9df4-6efbb4ee6174) <<< 눌러서 GIF.ver 확인**
 
 - - -
 ### 실험 결과 中 2
 #### 2. 특정 영역(지정 영역)만 스타일 변환
 - - -
 
+특정 영역 스타일 변환은 다음 깃허브와, 학교에서 실습한 크로마키 코드를 보며 진행하였다.
 
+![참고](https://github.com/margaretmz/segmentation-style-transfer?tab=readme-ov-file) << 참고한 자료
+
+#### 마스크 이미지 생성하는 과정
+1. 이미지로드
+2. 이미지 변환 (BGR -> HSV)
+3. 하늘색 범위 정의 (HSV)
+4. 하늘 영역 마스크 생성
+5. 마스크 저장
+
+다음과 같이 원본 content에서 하늘 및 창문은 그대로 두고,
+
+거기에 autumn으로 style transfer 된 학교 건물 및 도로 나뭇잎 영역을 오버레이 한다.
+
+![segmentation](https://github.com/ryu020619/Segmentation-Neural-Style-Transfer1/blob/main/Segmentation.png)
 
 - - -
 ### 추후 개선 사항
 - - -
+1. 모델의 성능은 뛰어나나, 솔직하게 말해서 이런 스타일 변환 신경망을 예술적으로만 사용해본다는 게 프로젝트 내내 아쉬웠다. 따라서 추후 다른 프로젝트를 진행할 때, 데이터 증강할 때 GAN을 제대로 다시 사용해보고 싶다. 
+
+
+2. 또한, 스타일 변환 후 나온 결괏값에 대해 판단할 수 있는 다양한 평가 지표가 있었지만 비교해보지 못 한 게 아쉽다. 스타일 변환된 이미지를 평가해주는 사이트에 내 결과물을 직접 올려 투표를 받아볼 예정이다.
+
+
+3. 모델 안에 있는 파라미터들을 직접 조정해보고 싶다. 지금은 학부생이라 파라미터까지 손대보지 못 한 점이 아쉽다. 모델 응용 분야 확장도 물론 좋지만, 직접적으로 성능 개선 하는 것도 학부생일 때 큰 도움이 될 것이라고 생각한다. 따라서 추후 시도해 볼 예정이다.
+
+- - - 
+
+
