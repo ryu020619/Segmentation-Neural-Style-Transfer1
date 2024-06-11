@@ -41,7 +41,7 @@
 - - -
 직접 촬영한 8초짜리 학교 영상을 -> 초당 프레임이 **30fps**인 **240**장의 연속된 사진들로 변환함.
 
-### ![학교 영상](https://github.com/ryu020619/Segmentation-Neural-Style-Transfer1/blob/main/ky_school.mov) << 눌러서 원본 동영상 확인
+## ![학교 영상](https://github.com/ryu020619/Segmentation-Neural-Style-Transfer1/blob/main/ky_school.mov) << 눌러서 원본 동영상 확인!
 
 
 ![연속 된 사진](https://github.com/ryu020619/Segmentation-Neural-Style-Transfer1/blob/main/ex_content.png)
@@ -92,7 +92,7 @@ style gan으로 모델을 짠 git hub 파일들을 찾아보다가,
 
 + spring 60장 + summer 60장 + autumn 60장 + winter 60장 합친 gif 
 
-### **![gif](https://github.com/ryu020619/Segmentation-Neural-Style-Transfer1/assets/144203528/9db85a86-51c4-4c5a-9df4-6efbb4ee6174) <<< 눌러서 GIF.ver 확인**
+## **![gif](https://github.com/ryu020619/Segmentation-Neural-Style-Transfer1/assets/144203528/9db85a86-51c4-4c5a-9df4-6efbb4ee6174) <<< 눌러서 GIF.ver 확인!!**
 
 - - -
 ### 실험 결과 中 2
