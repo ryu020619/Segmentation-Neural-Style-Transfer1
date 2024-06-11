@@ -13,8 +13,10 @@
 
 직접 촬영한 8초 짜리 학교 영상을 -> 초당 프레임이 **30fps**인 **240**장의 연속된 사진들로 변환함.
 
+![학교 영상](https://github.com/ryu020619/Segmentation-Neural-Style-Transfer1/blob/main/ky_school.mov)
 
-=> content_0to59, content_60to119, content_120to179, content_180to239 총 4개의 파일에 구분해둠.
+
+=> 위 사진과 같이 content_0to59, content_60to119, content_120to179, content_180to239 총 4개의 파일에 구분해둠.
 
 - - -
 ## 모델 설명
