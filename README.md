@@ -9,6 +9,8 @@
 알고리즘은 CNN넷(일반적으로 VGG-16/19)을 사용하여 한 입력 이미지(스타일 이미지)에서 -> 다른 입력 이미지(콘텐츠 이미지)로 스타일을 전송한다.
 이 프로젝트에서는 GAN을 활용한 Style Transfer을 통해 연속된 이미지의 스타일 변화를 수행하고, 특정 영역을 지정하여 스타일 변화를 한다. 
 
+### *style GAN이란?*
+![연속 된 사진](https://github.com/ryu020619/Segmentation-Neural-Style-Transfer1/blob/main/image.png)
 
 1. 스타일 이미지 + 사계절, 콘텐트 이미지 → 시간에 따라 변하는 gif 생성
 2. 특정 영역(지정 영역)만 스타일 변환
