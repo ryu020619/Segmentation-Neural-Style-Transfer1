@@ -76,15 +76,31 @@ style gan으로 모델을 짠 git hub 파일들을 찾아보다가,
 
 메인으로 참고하여 진행하게 되었다.  ![git hub 참고](https://github.com/gordicaleksa/pytorch-neural-style-transfer)
 - - -
-### 실험 결과
+### 실험 결과 中 1
+#### 1. 스타일 이미지 + 사계절, 콘텐트 이미지 → 시간에 따라 변하는 gif 생성
+- - -
+       
++ 60장씩 총 네 번의 style transfer 진행
++ style은 사계절 이미지 (봄, 여름, 가을, 겨울) 사용
+                                                          
+결과 => 2초가 지날 때마다 계절이 바뀌는 8초짜리 학교 영상 및 gif 생성
+
+![spring](https://github.com/ryu020619/Segmentation-Neural-Style-Transfer1/blob/main/spring.png)
+![spring](https://github.com/ryu020619/Segmentation-Neural-Style-Transfer1/blob/main/summer.png)
+![spring](https://github.com/ryu020619/Segmentation-Neural-Style-Transfer1/blob/main/autumn.png)
+![spring](https://github.com/ryu020619/Segmentation-Neural-Style-Transfer1/blob/main/winter.png)
+
++ spring 60장 + summer 60장 + autumn 60장 + winter 60장 합친 gif
+
+![gif](https://github.com/ryu020619/Segmentation-Neural-Style-Transfer1/assets/144203528/9db85a86-51c4-4c5a-9df4-6efbb4ee6174
+)
+
+- - -
+### 실험 결과 中 2
+#### 2. 특정 영역(지정 영역)만 스타일 변환
 - - -
 
-content로 사용할 연속적인 학교 이미지 중 가장 첫 번째 사진
 
-![spring](https://github.com/ryu020619/Segmentation-Neural-Style-Transfer1/blob/main/summer.png)
-![spring](https://github.com/ryu020619/Segmentation-Neural-Style-Transfer1/blob/main/summer.png)
-![spring](https://github.com/ryu020619/Segmentation-Neural-Style-Transfer1/blob/main/summer.png)
-![spring](https://github.com/ryu020619/Segmentation-Neural-Style-Transfer1/blob/main/summer.png)
 
 - - -
 ### 추후 개선 사항
